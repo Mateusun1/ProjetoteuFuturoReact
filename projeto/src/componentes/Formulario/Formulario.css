@@ -4,8 +4,8 @@
     text-align: center;
     text-decoration: underline;
     padding: 50px 0;
-    background: linear-gradient(rgb(107,104,104), white, white);
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif; 
+    color: #527FBA;  
 }
 
 label{
