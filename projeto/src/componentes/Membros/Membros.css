@@ -5,6 +5,7 @@
     text-decoration: underline;
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #527FBA;
 }
 .Portfolio {
     display: flex;
@@ -12,7 +13,6 @@
     margin: 0  auto;
     padding: 40px 0;
     gap: 2rem;
-    background: linear-gradient(white , white,rgb(107, 104, 104));
 }
 .Portfolio div{
     display: inline-block;
@@ -44,8 +44,8 @@
     border-radius: 1px;
     text-align: center;
     font-weight: bold;
-    background: rgb(107, 104, 104);
-    color: white;
+    background: white;
+    color: black;
     text-transform: uppercase;
     padding: 3px;
     line-height: 15px;
