@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     margin: 0  auto;
-    padding: 40px 0;
+    padding: 100px 0;
     gap: 2rem;
 }
 .Portfolio div{
@@ -25,6 +25,9 @@
     cursor: pointer;
     width: 25%;
     padding: 20px 7px 20px 7px;
+    transform: skewY(20deg);
+    transform-origin: top  right;
+    opacity: 0.5;
 }
 .CardLeft img{
     width: 160px;
@@ -94,4 +97,13 @@
     height: 20px;
     display: inline-block;
     margin: 0 10px 0 95px;
+}
+.ContainerSetas{
+    display: block;
+    text-align: center;
+}
+.Setas:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    transition: 0.5s;
 }

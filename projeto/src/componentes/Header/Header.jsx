@@ -7,7 +7,7 @@ class Header extends Component{
             <section>
                 <header>
                 <div className="logo">
-                    <img src={LogoSquad15} alt="imagem do Squad15"/>
+                    <img className="LogoSquad" src={LogoSquad15} alt="imagem do Squad15"/>
                     <nav>
                         <ul>
                             <li><a>Membros</a></li>

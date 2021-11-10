@@ -12,6 +12,10 @@ header{
     padding: 0.2rem 0.5rem;
     justify-content: space-between;
 }
+.LogoSquad{
+    height: 35px;
+    width: 200px;
+}
 
 
 nav li{
