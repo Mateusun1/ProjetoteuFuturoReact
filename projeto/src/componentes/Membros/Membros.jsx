@@ -10,7 +10,7 @@ import left from "../../assents/img/Left.svg"
 import Right from "../../assents/img/Right.svg"
 
 import "./Membros.css"
-class Membros extends Component{
+class Membros extends Component{  
     render(){
         return(
             <section>

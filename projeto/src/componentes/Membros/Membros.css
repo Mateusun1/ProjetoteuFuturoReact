@@ -25,9 +25,6 @@
     cursor: pointer;
     width: 25%;
     padding: 20px 7px 20px 7px;
-    transform: skewY(20deg);
-    transform-origin: top  right;
-    opacity: 0.5;
 }
 .CardLeft img{
     width: 160px;
