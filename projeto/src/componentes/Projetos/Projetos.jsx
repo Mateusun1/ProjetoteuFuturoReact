@@ -10,13 +10,13 @@ class Projetos extends Component{
                 <section class="Nome-Home2">Trabalhos</section>
                     <div class="trabalhos">
                             <div class="imagem-trabalhos">
-                                <img src={Pong}/>
+                                <img src={Pong} alt="Imagem do PingPong"/>
                             </div>
                             <div class="imagem-trabalhos">
-                                <img src={Freeway}/>
+                                <img src={Freeway} alt="Imagem do Freeway"/>
                             </div>
                             <div class="imagem-trabalhos">
-                                <img src={Barbearia}/>
+                                <img src={Barbearia} alt="Imagem do Barbearia"/>
                             </div>
                     </div>
             </section>
