@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import "./Formulario.css"
+import LogoSquadG from "../../assents/img/LogoSquadGrande.svg"
 class Formulario extends Component{
     render(){
         return(
-            <section>
+            <section className="BackgroundFormularioFooter">
                 <div class="Nome-Home4">
                     <section><a id="contatos">Contatos</a></section>
                 </div>
-                    <form>   
+                <div className="Container">
+                <div className="form">
+                    <form className="">   
+                    
                     <div>        
                         <label for="nomecompleto">Nome Completo</label>
                         <input type="text" id="nomecompleto" className="bordas" required />
@@ -23,6 +27,14 @@ class Formulario extends Component{
                     </div>
                         <input type="submit" value="Enviar" className="enviar"/>
                     </form>
+                </div>
+                </div>
+                    <div>
+                    <footer>
+                    <img src={LogoSquadG} alt="icone squad"/>
+                    <p>&copy;Copyright SQUAD 15 - 2021</p>
+                </footer>
+                    </div>
             </section>
         )
     }

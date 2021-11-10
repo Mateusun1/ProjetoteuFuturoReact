@@ -18,7 +18,7 @@
     display: inline-block;
     font-size: 20px;
     border-radius: 1px;
-    background: orange;
+    background: #5e55ad;
     border-radius: 10px;
 }
 .CardLeft{
@@ -64,7 +64,7 @@
 .Nome{
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
     text-transform: uppercase;
     margin-top: 10px;
 }
