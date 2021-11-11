@@ -6,14 +6,12 @@ import TT from "../../assents/img/Twitter.svg"
 import Insta from "../../assents/img/Instagram.svg"
 import Git from "../../assents/img/Git.svg"
 import WPP from "../../assents/img/WPP.svg"
-import left from "../../assents/img/Left.svg"
-import Right from "../../assents/img/Right.svg"
 
 import "./Membros.css"
 class Membros extends Component{  
     render(){
         return(
-            <section>
+            <section className="PapelParede">
                 <section className="Nome-Home">Equipe</section>
                     <div className="Portfolio">
                         <div className="CardLeft">
@@ -43,10 +41,6 @@ class Membros extends Component{
                                 <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/></p>
                                 <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/></p>
                         </div>                   
-                    </div>
-                    <div className="ContainerSetas">
-                        <img className="Setas" src={left} alt="Seta esquerda"/>
-                        <img className="Setas" src={Right} alt="Seta direita"/>
                     </div>
             </section>
         )

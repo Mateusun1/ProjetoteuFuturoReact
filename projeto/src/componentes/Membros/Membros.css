@@ -2,10 +2,9 @@
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: underline;
-    padding-bottom: 20px;
+    padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: #527FBA;
+    color: white;
 }
 .Portfolio {
     display: flex;
@@ -95,12 +94,6 @@
     display: inline-block;
     margin: 0 10px 0 95px;
 }
-.ContainerSetas{
-    display: block;
-    text-align: center;
-}
-.Setas:hover{
-    cursor: pointer;
-    transform: scale(110%);
-    transition: 0.5s;
+.PapelParede{
+    background-image: url("../Membros/PapelParede.svg");
 }

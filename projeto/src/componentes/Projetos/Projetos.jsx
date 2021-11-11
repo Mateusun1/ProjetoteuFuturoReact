@@ -6,7 +6,7 @@ import "./Projetos.css"
 class Projetos extends Component{
     render(){
         return(
-            <section>
+            <section className="PapelParede">
                 <section class="Nome-Home2">Trabalhos</section>
                     <div class="trabalhos">
                             <div class="imagem-trabalhos">
