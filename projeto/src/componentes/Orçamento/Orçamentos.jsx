@@ -5,7 +5,7 @@ class Orçamento extends Component{
     render(){
         return(
             <section>
-                <h1>olá</h1>
+                <h1>Orçamentos</h1>
             </section>
         )
     }
