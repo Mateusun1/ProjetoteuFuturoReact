@@ -19,9 +19,9 @@
     border-radius: 1px;
     background: #5e55ad;
     border-radius: 10px;
+    box-shadow: 3px 4px 3px 1px black
 }
 .CardLeft{
-    cursor: pointer;
     width: 25%;
     padding: 20px 7px 20px 7px;
 }
@@ -34,7 +34,6 @@
     margin-right: auto;
 }
 .CardMeio{
-    cursor: pointer;
     width: 25%;
     padding: 20px 7px 20px 7px;
 }
@@ -47,7 +46,6 @@
     margin-right: auto;
 }
 .CardRight{
-    cursor: pointer;
     width: 25%;
     padding: 20px 7px 20px 7px;
 }

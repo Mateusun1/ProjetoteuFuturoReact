@@ -6,8 +6,8 @@ import "./Projetos.css"
 class Projetos extends Component{
     render(){
         return(
-            <section className="PapelParede">
-                <section class="Nome-Home2">Trabalhos</section>
+            <section className="PapelParede" id="Projetos">
+                <section class="Nome-Home2">Projetos</section>
                     <div class="trabalhos">
                             <div class="imagem-trabalhos">
                                 <img src={Pong} alt="Imagem do PingPong"/>

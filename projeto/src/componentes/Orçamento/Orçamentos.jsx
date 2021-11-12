@@ -4,7 +4,7 @@ import "./Orçamentos.css"
 class Orçamento extends Component{
     render(){
         return(
-            <section>
+            <section className="null">
                 <h1>olá</h1>
             </section>
         )
