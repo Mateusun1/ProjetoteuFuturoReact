@@ -4,7 +4,7 @@ import "./Header.css"
 class Header extends Component{
     render(){
         return(
-            <section>
+            <section className="Header">
                 <header>
                 <div className="logo">
                     <img className="LogoSquad" src={LogoSquad15} alt="imagem do Squad15"/>
