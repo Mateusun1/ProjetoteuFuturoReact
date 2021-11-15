@@ -16,7 +16,9 @@ class Membros extends Component{
                 <section className="Nome-Home" id="Equipe">Equipe</section>
                     <div className="Portfolio">
                         <div className="CardLeft">
+                            <div className="Fotos">
                             <img src={Matheus} alt="Avatarzinho do Matheus"/>
+                            </div>
                             <p className="Nome">Matheus</p>
                             <p className="Profissao">Desenvolvedor Front-end</p>
                             <p className="Usuario"><img className="Icons" src={TT} alt="Icon do Twitter"/>Mateusun_</p>
@@ -25,7 +27,9 @@ class Membros extends Component{
                             <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54) 9 8158-2900</p>
                         </div>  
                         <div class="CardMeio">
-                            <img src={Paola} alt="Avatarzinho da Paola"/>
+                            <div className="Fotos">
+                            <img src={Paola} alt="Avatarzinho da Paola"/>                          
+                            </div>
                                 <p class="Nome">Paola</p>
                                 <p className="Profissao">Desenvolvedora Front-end</p>
                                 <p className="Usuario"><img className="Icons" src={LKD} alt="Icon do Twitter"/>paolafacchin</p>
@@ -34,7 +38,9 @@ class Membros extends Component{
                                 <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54)99645-4109</p>
                         </div> 
                         <div class="CardRight">
+                            <div className="Fotos">
                             <img src={Julio} alt="Avatarzinho do Julio"/>
+                            </div>
                                 <p class="Nome">Julio</p>
                                 <p className="Profissao">Desenvolvedor Front-end</p>
                                 <p className="Usuario"><img className="Icons" src={TT} alt="Icon do Twitter"/></p>
