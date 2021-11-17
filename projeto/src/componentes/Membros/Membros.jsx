@@ -27,10 +27,10 @@ class Membros extends Component{
                             <img src={Paola} alt="Avatarzinho da Paola"/>
                                 <p class="Nome">Paola</p>
                                 <p className="Profissao">Desenvolvedora Front-end</p>
-                                <p className="Usuario"><img className="Icons" src={TT} alt="Icon do Twitter"/></p>
-                                <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/></p>
-                                <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/></p>
-                                <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/></p>
+                                <p className="Usuario"><img className="Icons" src={TT} alt="Icon do Twitter"/>paolafacchin</p>
+                                <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/>paola_facchin</p>
+                                <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/>paola-facchin</p>
+                                <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54)99645-4109</p>
                         </div> 
                         <div class="CardRight">
                             <img src={Julio} alt="Avatarzinho do Julio"/>
