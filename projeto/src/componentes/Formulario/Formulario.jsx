@@ -8,7 +8,7 @@ class Formulario extends Component{
         return(
             <section className="BackgroundFormularioFooter">
                 <div class="Nome-Home4">
-                    <section><a id="contatos">Contatos</a></section>
+                    <section id="Contatos">Contatos</section>
                 </div>
                 <div className="Container">
                     <div className="form">

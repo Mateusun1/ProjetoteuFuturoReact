@@ -4,8 +4,8 @@ import "./Orçamentos.css"
 class Orçamento extends Component{
     render(){
         return(
-            <section>
-                <h1>Orçamentos</h1>
+            <section className="null">
+                <h1>olá</h1>
             </section>
         )
     }

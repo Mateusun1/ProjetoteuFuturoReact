@@ -4,15 +4,15 @@ import "./Header.css"
 class Header extends Component{
     render(){
         return(
-            <section>
+            <section className="Header">
                 <header>
                 <div className="logo">
                     <img className="LogoSquad" src={LogoSquad15} alt="imagem do Squad15"/>
                     <nav>
                         <ul>
-                            <li><a>Membros</a></li>
-                            <li><a>Trabalhos</a></li>
-                            <li><a>Contatos</a></li>
+                            <li><a href="#Equipe">Equipe</a></li>
+                            <li><a href="#Projetos">Projetos</a></li>
+                            <li><a href="#Contatos">Contatos</a></li>
                         </ul>
                     </nav>
                 </div>
