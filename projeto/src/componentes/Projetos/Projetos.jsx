@@ -2,9 +2,9 @@ import React, {Component} from "react";
 import Pong from "../../assents/img/Pong.svg"
 import Freeway from "../../assents/img/Freeway.svg"
 import Barbearia from "../../assents/img/BarbeariaAlura.svg"
-import Front from "../../assents/img/Front.svg"
-import Formulário from "../../assents/img/Formulário.svg"
-import Tarefas from "../../assents/img/Tarefas.svg"
+//import Front from "../../assents/img/Front.svg"
+//import Formulário from "../../assents/img/Formulário.svg"
+//import Tarefas from "../../assents/img/Tarefas.svg"
 import "./Projetos.css"
 class Projetos extends Component{
     render(){
@@ -34,7 +34,7 @@ class Projetos extends Component{
                                 <img className="img-esq" src={Barbearia} alt="Imagem do Barbearia"/>
                             </section>
                         </div>
-                        <div class="trabalhos">
+                        {/*<div class="trabalhos">
                             <h2 className="titulo-dir">Front-End</h2>
                             <section className="direita">
                                 <img className="img-dir" src={Front} alt="Imagem do Front-End"/>
@@ -54,7 +54,7 @@ class Projetos extends Component{
                                 <img className="img-dir" src={Tarefas} alt="Imagem das Tarefas"/>
                                 <p className="texto-dir">Bloco de Tarefas feito com React, dando a possibilidade ao usuario de adicionar e apagar notas com categorias que ele mesmo pode colocar.</p>
                             </section>    
-                        </div>    
+                        </div>*/}   
                     </div>
             </section>
         )

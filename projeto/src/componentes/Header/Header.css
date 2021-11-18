@@ -1,8 +1,6 @@
 .Header{
-    background: #527FBA;
-    position: sticky;
+    background: #476ea1;
     top: 0;
-    box-shadow: 0px 0px 50px rgb(24, 22, 22);
 }
 .logo{
     align-items: center;
