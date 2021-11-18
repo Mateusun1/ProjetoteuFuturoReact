@@ -15,7 +15,7 @@ class Projetos extends Component{
                         <div class="trabalhos">
                             <h2 className="titulo-esq">Pong</h2>
                             <section className="esquerda">
-                                <p className="texto-esq">Pong é o primeiro videojogo lucrativo da história, ele teve uma importância fundamental na história do videgame.
+                                <p className="texto-esq">Pong teve uma importância fundamental na história do videgame.
                                 Foi criado por Nolan Bushnell e Ted Dabney em 29 de novembro de 1972.</p>
                                 <img className="img-esq" src={Pong} alt="Imagem do PingPong"/>
                             </section>    
