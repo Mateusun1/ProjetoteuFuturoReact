@@ -59,9 +59,7 @@ input, textarea{
     background: #5e55ae;
     transform: scale(1.1);
 }
-.Centralizar{
-    display: flex;
-}
+
 .BackgroundFormularioFooter{
     background:#527FBA;
     border-radius: 3rem;
