@@ -4,7 +4,7 @@
     text-align: center;
     padding: 50px 0;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: white;
     text-shadow: 0.1em 0.1em 0.2em rgb(99, 96, 96)
 }
 .trabalhos{
@@ -15,7 +15,7 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: white;
 }
 .esquerda{
     display: flex;
@@ -27,7 +27,7 @@
     font-size: 19px;
     text-align: end;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: white;
 }
 .img-esq{
     width: 60%;
@@ -38,7 +38,7 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: white;
 }
 .direita{
     display: flex;
@@ -50,7 +50,7 @@
     font-size: 19px;
     text-align: inherit;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: white;
 }
 .img-dir{
     width: 60%;
@@ -60,5 +60,5 @@
 .fundo{
     padding: 50px;
     border-radius: 45px;
-    background-color: white;
+    background: #5e55ae;
 }

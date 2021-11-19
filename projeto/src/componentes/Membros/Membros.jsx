@@ -17,7 +17,7 @@ class Membros extends Component{
                     <div className="Portfolio">
                         <div className="CardLeft">
                             <div className="Fotos">
-                            <img src={Matheus} alt="Avatarzinho do Matheus"/>
+                            <img className="backgroundFotos" src={Matheus} alt="Avatarzinho do Matheus"/>
                             </div>
                             <p className="Nome">Matheus</p>
                             <p className="Profissao">Desenvolvedor Front-end</p>
@@ -28,7 +28,7 @@ class Membros extends Component{
                         </div>  
                         <div class="CardMeio">
                             <div className="Fotos">
-                            <img src={Paola} alt="Avatarzinho da Paola"/>                          
+                            <img className="backgroundFotos" src={Paola} alt="Avatarzinho da Paola"/>                          
                             </div>
                                 <p class="Nome">Paola</p>
                                 <p className="Profissao">Desenvolvedora Front-end</p>
@@ -39,7 +39,7 @@ class Membros extends Component{
                         </div> 
                         <div class="CardRight">
                             <div className="Fotos">
-                            <img src={Julio} alt="Avatarzinho do Julio"/>
+                            <img className="backgroundFotos" src={Julio} alt="Avatarzinho do Julio"/>
                             </div>
                                 <p class="Nome">Julio</p>
                                 <p className="Profissao">Desenvolvedor Front-end</p>

@@ -1,6 +1,5 @@
 .orçamento{
     background-color: #527FBA;
-    border-radius: 0px 0px 50px 50px;
     padding-bottom: 2rem;
 }
 
@@ -66,4 +65,8 @@ button:hover{
     color: white;
     background: #37326b;
     transform: scale(1.1);
+}
+.CA{
+    text-decoration: none;
+    color: white;
 }
