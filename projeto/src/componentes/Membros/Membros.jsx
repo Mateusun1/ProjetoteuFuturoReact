@@ -21,7 +21,7 @@ class Membros extends Component{
                             </div>
                             <p className="Nome">Matheus</p>
                             <p className="Profissao">Desenvolvedor Front-end</p>
-                            <p className="Usuario"><img className="Icons" src={TT} alt="Icon do Twitter"/>Mateusun_</p>
+                            <p className="Usuario"><img className="Icons" src={LKD} alt="Icon do Linkedin"/>Matheus de Almeida</p>
                             <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/>Mateusun_</p>
                             <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/>Mateusun1</p>
                             <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54) 9 8158-2900</p>
