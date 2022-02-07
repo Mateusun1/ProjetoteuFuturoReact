@@ -1,72 +1,52 @@
 .orçamento{
-    background-color: #527FBA;
-    padding-bottom: 2rem;
+    border-top: 1px solid black;
 }
-
-.backgroundOrçamento{
+.orçamentos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobre-orçamento{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-orçamento{
+    font-size: 30px;
     text-align: center;
+    text-decoration: underline;
 }
-
-.luvaEMoeda{
-    display: inline-block;
-    text-align: left;
-    margin: 50px 0px 10px 50px;
-}
-.Mão{
-    margin: 40px 60px 0 60px;
-    width: 300px;
-    height: 300px;
-    filter: drop-shadow(-19px 19px 6px #383838);
-}
-
-.sobreOrçamento .botao{
-    justify-content: left;
-    display: inline-block;
-    text-align: left;
-    align-items: left;
-}
-
-.tituloOrçamento{
-    font-size: 40px;
+.paragrafo-orçamento{
+    font-size: 22px;
+    font-family:'Open Sans';
     font-weight: bold;
-    color: white;
-    text-align: center;
-    padding-left: 5%;
+    text-align: justify;
 }
-
-.fraseOrçamento{
-    display: block;
-    color: white;
-    font-size: 25px;
-    padding-left: 5%;
-    margin: 5px;
-    text-align: center;
+.img-orçamento{
+    filter: drop-shadow(15px 15px 14px black);
 }
-
-.botaoOrçamento{
-    margin: 40px 0px 0px 50px;
-    display: inline-block;
-    padding: 15px 15px 20px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    border-style: double;
-    background-color: #5e55ae;
+.botao-orçamento{
+    margin-top: 1.5rem;
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 23px;
+    border:1px solid black;
     color: black;
-    cursor: pointer;
-    transition: 0.5s all;
-    border: none;
-    box-shadow:2px 2px 3px 1px black;
-    text-transform: uppercase;
-    font-size: 20px;
+    border-radius: 7px 7px 5px 5px;
+    background: #9552BA;
+    font-weight: bold;
+    box-shadow: px 3px 8px black;
 }
-button:hover{
-    color: white;
-    background: #37326b;
-    transform: scale(1.1);
-}
-.CA{
-    text-decoration: none;
-    color: white;
+
+@media(max-width:850px){
+    .paragrafo-orçamento{
+        text-align: center;
+    }
+    .botao-orçamento{
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    .orçament-image{
+        display: none;
+    }
 }

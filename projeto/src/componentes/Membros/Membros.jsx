@@ -1,54 +1,75 @@
 import React,{ Component} from "react";
-import Matheus from "../../assents/img/Matheus.svg"
-import Paola from "../../assents/img/Paola.svg"
-import Julio from "../../assents/img/Julio.svg"
-import TT from "../../assents/img/Twitter.svg"
-import Insta from "../../assents/img/Instagram.svg"
-import Git from "../../assents/img/Git.svg"
-import WPP from "../../assents/img/WPP.svg"
-import LKD from "../../assents/img/Linkedin.svg"
+import Matheus from "../Membros/Equipe/Matheus.svg"
+import Paola from "../Membros/Equipe/Paola.svg"
+import Julio from "../Membros/Equipe/Julio.svg"
+
+import linkedin from "../Membros/Redes Sociais/linkedin.svg"
+import instagram from "../Membros/Redes Sociais/instagram.svg"
+import github from "../Membros/Redes Sociais/github.svg"
+import whatsapp from "../Membros/Redes Sociais/whatsapp.svg"
 
 import "./Membros.css"
 class Membros extends Component{  
     render(){
+    
         return(
-            <section className="PapelParede">
-                <section className="Nome-Home" id="Equipe">Equipe</section>
-                    <div className="Portfolio">
-                        <div className="CardLeft">
-                            <div className="Fotos">
-                            <img className="backgroundFotos" src={Matheus} alt="Avatarzinho do Matheus"/>
+            <section>
+                <div className="container painel-membros">
+                    <h1 className="titulo-membros">Equipe</h1> 
+                    <div className="equipe">
+                        <div className="painel-equipe">
+                            <div className="painel-img-equipe">
+                                <img className="img-equipe" src={Matheus} alt="."/>
                             </div>
-                            <p className="Nome">Matheus</p>
-                            <p className="Profissao">Desenvolvedor Front-end</p>
-                            <p className="Usuario"><img className="Icons" src={LKD} alt="Icon do Linkedin"/>Matheus de Almeida</p>
-                            <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/>Mateusun_</p>
-                            <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/>Mateusun1</p>
-                            <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54) 9 8158-2900</p>
-                        </div>  
-                        <div class="CardMeio">
-                            <div className="Fotos">
-                            <img className="backgroundFotos" src={Paola} alt="Avatarzinho da Paola"/>                          
+                            <div className="painel-nome-profissao">
+                                <h1 className="painel-nome">Matheus de Almeida Muller</h1>
+                                <h2 className="painel-profissao">Desenvolvedor Full Stack Jr</h2>
                             </div>
-                                <p class="Nome">Paola</p>
-                                <p className="Profissao">Desenvolvedora Front-end</p>
-                                <p className="Usuario"><img className="Icons" src={LKD} alt="Icon do Twitter"/>paolafacchin</p>
-                                <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/>paola_facchin</p>
-                                <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/>paola-facchin</p>
-                                <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(54)99645-4109</p>
-                        </div> 
-                        <div class="CardRight">
-                            <div className="Fotos">
-                            <img className="backgroundFotos" src={Julio} alt="Avatarzinho do Julio"/>
+                            <div>
+                                <div className="redes-sociais">
+                                    <a href="https://www.linkedin.com/in/matheus-de-almeida-341b73211/"><img src={linkedin} alt="linkedin icon" /></a>
+                                    <a href="https://www.instagram.com/mateusun_/"><img src={instagram} alt="Instagram icon" /></a>
+                                    <a href="https://github.com/Mateusun1"><img className="github" src={github} alt="GitHub icon" /></a>
+                                    <a href="https://api.whatsapp.com/send?phone=5554981582900"><img  className="zap" src={whatsapp} alt="whatsapp icon" /></a>
+                                </div>
                             </div>
-                                <p class="Nome">Julio</p>
-                                <p className="Profissao">Desenvolvedor Front-end</p>
-                                <p className="Usuario"><img className="Icons" src={LKD} alt="Icon do Twitter"/>Julio Boeno Dal Zotto</p>
-                                <p className="Usuario"><img className="Icons" src={Insta} alt="Icon do Instagram"/>Juliobdz</p>
-                                <p className="Usuario"><img className="Icons" src={Git} alt="Icon do Git"/>Juliodalzotto</p>
-                                <p className="Numero"><img className="Icons" src={WPP} alt="Icon do Whatsapp"/>(51) 9 9181-9026</p>
-                        </div>                   
+                        </div>
+                        <div className="painel-equipe">
+                            <div className="painel-img-equipe">
+                                <img className="img-equipe" src={Paola} alt="."/>
+                            </div>
+                            <div className="painel-nome-profissao">
+                                <h1 className="painel-nome">Paola Facchin</h1>
+                                <h2 className="painel-profissao">Desenvolvedora Front End</h2>
+                            </div>
+                            <div>
+                                <div className="redes-sociais">
+                                    <a href="https://br.linkedin.com/in/paolafacchin"><img src={linkedin} alt="linkedin icon" /></a>
+                                    <a href="https://www.instagram.com/paola_facchin"><img src={instagram} alt="Instagram icon" /></a>
+                                    <a href="https://github.com/paola-facchin"><img className="github" src={github} alt="GitHub icon" /></a>
+                                    <a href="https://api.whatsapp.com/send?phone=5554996454109"><img  className="zap" src={whatsapp} alt="whatsapp icon" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="painel-equipe">
+                            <div className="painel-img-equipe">
+                                <img className="img-equipe" src={Julio} alt="."/>
+                            </div>
+                            <div className="painel-nome-profissao">
+                                <h1 className="painel-nome">Julio</h1>
+                                <h2 className="painel-profissao">Desenvolvedor Front End</h2>
+                            </div>
+                            <div>
+                                <div className="redes-sociais">
+                                    <a href="https://br.linkedin.com/in/julio-boeno-dal-zotto"><img src={linkedin} alt="linkedin icon" /></a>
+                                    <a href="https://www.instagram.com/juliobdz/"><img src={instagram} alt="Instagram icon" /></a>
+                                    <a href="https://github.com/Juliodalzotto"><img className="github" src={github} alt="GitHub icon" /></a>
+                                    <a href="https://api.whatsapp.com/send?phone=5551991819026"><img  className="zap" src={whatsapp} alt="whatsapp icon" /></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
             </section>
         )
     }

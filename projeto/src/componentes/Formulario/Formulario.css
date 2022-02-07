@@ -1,78 +1,46 @@
-.Nome-Home4{
-    font-size: 50px;
-    text-transform: uppercase;
+.titulo-form{
     text-align: center;
-    padding: 50px 0;
-    font-family: 'Montserrat', sans-serif; 
-    color: white;  
-}
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
 
-.Container{
-    padding: 0 6rem;
+    border-top: 1px solid black;
+    padding-top: 2rem;
 }
 .form{
+   text-align: center;
+}
+.label-form{
     display: block;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.input-form{
+    padding: 0.6rem 0;
+    margin-bottom: 1rem;
+    width: 40%;
     text-align: center;
-}
-.form input{
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 2px 2px 3px 1px black;
-    border-radius: 15px;
-}
-.form textarea{
-    display: inline-block;
-    justify-content: center;
-    box-shadow:2px 2px 3px 1px black;
-    border-radius: 15px;
-}
-label{
-    text-emphasis-color: #5e55ae;
-    display: block;
-    font-size: 18px;
-    margin: 0 0 10px;
-}
-
-input, textarea{
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-
-.enviar{
-    margin: 25px;
-    padding: 15px 0;
-    background: #5e55ae;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
+    border:1px solid black;
     border-radius: 5px;
-    border-style: double;
-    transition: 1s all;   
-    cursor: pointer; 
-    border: none;
 }
-
-.enviar:hover{
-    background: #5e55ae;
-    transform: scale(1.1);
+.textarea-form{
+    width: 40%;
 }
-
-.BackgroundFormularioFooter{
-    background:#527FBA;
-    border-radius: 3rem;
+.button-form{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    width: 20%;
+    border:none;
+    background: #5c55ac;
+    font-size: 1.3rem;
+    border-radius: 5px 5px 2px 2px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-footer{
-    text-align: center;
-    background: #476ea1;
-    
-}
-footer p{
-    color: white;
-    font-size: 15px;
-    background: #476ea1;
-    padding: 20px;
-    margin: 0;
+.button-form:hover{
+    background:#867fd6 ;
+    transition: all 1.3s;
 }
