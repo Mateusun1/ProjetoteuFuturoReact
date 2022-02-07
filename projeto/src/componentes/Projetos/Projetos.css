@@ -1,64 +1,38 @@
-.Nome-Home2 {
-    font-size: 50px;
-    text-transform: uppercase;
+.titulo-projetos{
     text-align: center;
-    padding: 50px 0;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-shadow: 0.1em 0.1em 0.2em rgb(99, 96, 96)
-}
-.trabalhos{
-    padding: 0 0 55px 0;
-}
-.titulo-esq{
-    font-size: 25px;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    font-size: 3rem;
     text-transform: uppercase;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-family: "bebas neue";
 }
-.esquerda{
+.jogos{
     display: flex;
-    width: 640px;
-    margin: 0 auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2.5rem;
 }
-.texto-esq{
-    margin: 15px 30px;
-    font-size: 19px;
-    text-align: end;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.direta-informações{
+    width: 30rem;
 }
-.img-esq{
-    width: 60%;
-    box-shadow: 10px 10px 10px #000000;
-}
-.titulo-dir{
-    font-size: 25px;
+.direita-titulo-projetos{
+    font-size: 2rem;
+    margin-left: 1rem;
     text-transform: uppercase;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
 }
-.direita{
-    display: flex;
-    width: 640px;
-    margin: 0 auto;
+.direita-sinopse-projetos{
+    font-size: 1.3rem;
+    font-family: 'Open Sans';
 }
-.texto-dir{
-    margin: 15px 30px;
-    font-size: 19px;
-    text-align: inherit;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.esquerda-informações{
+    width: 25rem;
 }
-.img-dir{
-    width: 60%;
-    box-shadow: -11px 9px 10px #000000;
+.esquerda-titulo-projetos{
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
 }
-
-.fundo{
-    padding: 50px;
-    border-radius: 45px;
-    background: #5e55ae;
+.esquerda-sinopse-projetos{
+    font-size: 1.3rem;
+    font-family: 'Open Sans';
 }

@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #5e55ae;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgb(228, 223, 223);
 }
 
 code {
@@ -14,4 +16,7 @@ code {
 }
 html{
   scroll-behavior: smooth;
+}
+p{
+  margin: 0;
 }
